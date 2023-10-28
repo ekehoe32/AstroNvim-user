@@ -33,6 +33,9 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
+  v = {
+    ["<C-c>"] = {'"+y', desc = "Copy to system clipboard."},
+  },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
