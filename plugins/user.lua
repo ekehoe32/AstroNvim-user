@@ -1,4 +1,7 @@
 return {
+	"kmontocam/nvim-conda",
+	dependencies = { "nvim-lua/plenary.nvim" },
+	ft = "python"
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
   -- "andweeb/presence.nvim",
